@@ -1,0 +1,88 @@
+body {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    background-image: url("../img/background2.jpg");
+}
+
+.content {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1%;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.container_account {
+    width: 40%;
+    height: auto;
+    color: black;
+    box-sizing: border-box;
+    background-color: #fff;
+    padding: 1%;
+    border-radius: 10px;
+}
+
+.inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.inner>p {
+    color: black;
+}
+
+.center {
+    align-self: center;
+    color: red;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input {
+    color: black;
+    padding: 10px 25px;
+    background: transparent;
+    border-radius: 30px;
+    border: 2px solid #000729;
+    outline: none;
+    margin: 1%;
+}
+
+.button {
+    cursor: pointer;
+    color: black;
+    padding: 10px;
+    background: transparent;
+    border-radius: 30px;
+    border: 2px solid #000729;
+    outline: none;
+    width: 25%;
+    font-family: 'Comfortanaa', Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.button:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease;
+    color: #000729;
+}
+
+@media screen and (max-width: 988px) {
+    .container_account {
+        width: 80%;
+        height: auto;
+    }
+}

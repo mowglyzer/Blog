@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    font-family: 'Russo One', helvetica neue, helvetica!important;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.page_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3%;
+}
+
+.form_connect {
+    width: 30%;
+    height: 30%;
+}
+
+.content {
+    background: #fff;
+    position: relative;
+    color: #666;
+    box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+    transition: box-shadow .1s ease-in-out;
+    padding: 20px;
+}
+
+.inner {
+    margin-bottom: 1.5rem!important;
+}
+
+.group_label {
+    color: #3e416d;
+    font-size: 15px;
+    margin-bottom: 5px;
+    display: block;
+    font-weight: 600;
+}
+
+label {
+    cursor: default;
+    display: inline-block;
+    margin-bottom: .5rem;
+    padding-top: 10px;
+}
+
+.icons {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 5px;
+    width: 40px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #999;
+    height: 30px;
+    padding-top: 7px;
+}
+
+.icons:not(a):not(button):not(input) {
+    pointer-events: none;
+}
+
+i {
+    font-style: italic;
+}
+
+.champs {
+    position: relative!important;
+}
+
+.input {
+    width: 80%;
+    border: 0 none;
+    padding: 0 16px;
+    background: #fff;
+    color: #666;
+    border: 1px solid #eceff5;
+    border-radius: 7px;
+    transition: .2s ease-in-out;
+    transition-property: color background-color border;
+    height: 41px;
+    vertical-align: middle;
+    display: inline-block;
+    overflow: visible;
+    padding-left: 40px;
+}
+
+button,
+input {
+    overflow: visible;
+    margin: 0%;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.oublie {
+    font-size: 0.75rem;
+}
+
+.checkbox {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+    margin-top: -4px;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border: 2px solid #ccc;
+    transition: .2s ease-in-out;
+    transition-property: background-color, border;
+    border-radius: 6px;
+    background-color: #383a62;
+    border-color: transparent;
+}
+
+.checkbox:hover {
+    cursor: pointer;
+}
+
+.end {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+    align-items: center;
+    margin-left: -15px;
+}
+
+.first_button:hover {
+    color: #3e416d;
+}
+
+.end>* {
+    padding-left: -15px;
+}
+
+.group_end {
+    padding-left: 15px;
+}
+
+.links {
+    color: rgb(43, 146, 206);
+    text-decoration: none;
+}
+
+.end>.group_end>a {
+    font-family: 'Russo One', helvetica neue, helvetica!important;
+}
+
+.links:hover {
+    color: #3e416d;
+}
+
+.first_button {
+    display: block;
+    margin-left: 20px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .5rem 1rem;
+    font-size: .9375rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    background-color: #2196f3;
+    border-color: #2196f3;
+    box-shadow: inset 0 1px 0 hsla(0, 0%, 100%, .15), 0 1px 1px rgba(0, 0, 0, .075);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+    .form_connect {
+        width: 80%;
+        height: 80%;
+    }
+}

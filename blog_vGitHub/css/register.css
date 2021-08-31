@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+body {
+    font-family: 'Russo One', helvetica neue, helvetica!important;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.page-content {
+    display: block;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3%;
+}
+
+div {
+    display: block;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.page-content-inner {
+    max-width: 1100px;
+    margin: auto;
+    padding: 30px;
+    padding-bottom: 0;
+    position: relative;
+}
+
+[class*=uk-width] {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+.uk-card-default {
+    background: #fff;
+    color: #666;
+    box-shadow: 0 5px 15px rgb(255, 255, 255, 0.5);
+}
+
+.uk-card-body {
+    padding: 20px;
+}
+
+.uk-card {
+    position: relative;
+    box-sizing: border-box;
+    transition: box-shadow .1s ease-in-out;
+}
+
+.uk-form-icon {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 5px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #999;
+    width: 30px;
+    height: 30px;
+    padding-top: 5px;
+}
+
+.w101 {
+    width: 100%!important;
+    position: relative!important;
+}
+
+.w-100 {
+    width: 100%!important;
+    position: relative!important;
+}
+
+.uk-form-label {
+    color: #3e416d;
+    font-size: 15px;
+    margin-bottom: 5px;
+    display: block;
+    font-weight: 600;
+}
+
+label {
+    cursor: default;
+    display: inline-block;
+    margin-bottom: .5rem;
+    padding-top: 10px;
+}
+
+.uk-form-icon:not(a):not(button):not(input) {
+    pointer-events: none;
+}
+
+i {
+    font-style: italic;
+}
+
+.uk-form-icon:not(.uk-form-icon-flip)~.uk-input {
+    padding-left: 40px!important;
+}
+
+.uk-input {
+    max-width: 100%;
+    width: 80%;
+    border: 0 none;
+    padding: 0 16px;
+    background: #fff;
+    color: #666;
+    border: 1px solid #eceff5;
+    border-radius: 7px;
+    transition: .2s ease-in-out;
+    transition-property: color, background-color, border;
+    height: 41px;
+    vertical-align: middle;
+    display: inline-block;
+    overflow: visible;
+}
+
+button,
+input {
+    overflow: visible;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.uk-checkbox {
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    overflow: hidden;
+    margin-top: -4px;
+    vertical-align: middle;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border: 1px solid #ccc;
+    transition: .2s ease-in-out;
+    transition-property: background-color, border;
+    border-radius: 4px;
+}
+
+.uk-checkbox:hover {
+    cursor: pointer;
+}
+
+.end {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: unset;
+}
+
+.uk-grid-small {
+    margin-left: -15px;
+}
+
+.group_end {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    min-width: 1px;
+}
+
+.uk-grid-small>* {
+    padding-left: 15px;
+}
+
+.links {
+    color: rgb(43, 146, 206);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.links:hover {
+    color: #3e416d;
+}
+
+.btn {
+    display: block;
+    font-weight: 400;
+    color: #383b3d;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .5rem 1rem;
+    font-size: .9375rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #2196f3;
+    border-color: #2196f3;
+    box-shadow: inset 0 1px 0 hsla(0, 0%, 100%, .15), 0 1px 1px rgba(0, 0, 0, .075);
+}
+
+.btn-primary:hover {
+    color: #3e416d;
+    cursor: pointer;
+}

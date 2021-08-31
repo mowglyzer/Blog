@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    font-family: 'Comfortaa', Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #181818;
+}
+
+footer {
+    width: 100%;
+    height: 10em;
+    background-color: rgba(33, 33, 33, 0.98);
+}
+
+.footer_inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer_after {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #0f0f0f;
+    height: 3em;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social i {
+    color: white;
+    width: 2em;
+    padding-left: 0.8em;
+    transform: scale(1.8);
+}
+
+.social i:hover {
+    color: lightgoldenrodyellow;
+    transform: scale(2);
+    transition: 0.5s ease;
+}
+
+p>a {
+    text-decoration: none;
+    color: lightgoldenrodyellow;
+}
+
+p>a:hover {
+    text-decoration: none;
+    color: white;
+}
